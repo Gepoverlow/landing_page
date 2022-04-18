@@ -174,3 +174,18 @@ a {
   border-radius: 10px;
   cursor: pointer;
 }
+
+.container-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1f2937;
+  color: #f9faf8;
+  padding: 30px;
+}
+
+.copyright {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
