@@ -140,3 +140,37 @@ a {
   font-weight: bold;
   padding-right: 50px;
 }
+
+.container-action {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 100px;
+}
+
+.action-main {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 80%;
+
+  background-color: #3882f6;
+  color: #f9faf8;
+  padding: 30px;
+
+  border-radius: 10px;
+}
+
+.action-main-text {
+  font-size: 20px;
+}
+
+.action-main-button {
+  border: 2px solid #f9faf8;
+  font-weight: bold;
+  font-size: 15px;
+  padding: 10px 30px;
+  border-radius: 10px;
+  cursor: pointer;
+}
